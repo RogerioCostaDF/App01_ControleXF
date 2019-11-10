@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App01_ControleXF.Controles.ButtonPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="1º Botão" 
+                    TextColor="Blue"
+                    Font="24"
+                    BorderColor="Red"
+                    BorderWidth="5"
+                    CornerRadius="20"
+                    
+                    BackgroundColor="White"/>
+            <Button Text="2º Botão" />
+            <Button ImageSource="pushbutton.jpg" HeightRequest="100" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
